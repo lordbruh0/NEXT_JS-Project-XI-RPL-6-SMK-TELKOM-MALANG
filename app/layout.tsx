@@ -18,7 +18,7 @@ export default function RootLayout({
 }: Readonly<{children: React.ReactNode}>) {
   return (
     <html lang="en">
-      <body className={openSans.className}>
+      <body className='font-font-roboto'>
         {/* Tambahkan Bagian berikut pada Layout*/}
         <div className="bg-home bg-no-repeat bg-cover">
         <div className="bg-brown w-screen">

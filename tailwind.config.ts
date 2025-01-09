@@ -12,10 +12,10 @@ export default {
         'font-roboto': ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
-        'home' : "url('/image/background.png')",
+        'home' : "url('/image/background2.jpg')",
       },
       backgroundColor : {
-        'brown': "rgba(92,61,49,0.9)",
+        'black': "rgba(0,0,0,0.5)",
       },
       borderColor :{
         "brown": "#5c3d31",
