@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
+import Headers from "./Components/header";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className='font-font-roboto'>
         {/* Tambahkan Bagian berikut pada Layout*/}
+        <Headers />
         <div className="bg-home bg-no-repeat bg-cover">
         <div className="bg-brown w-screen">
           {children}

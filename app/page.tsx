@@ -14,7 +14,7 @@ export default function Home() {
       <div className="bg-black w-screen">
         <main className="container mx-auto">
 
-          <Header />
+          {/* <Header /> */}
           <Hero />
           <Skill />
           <About />
