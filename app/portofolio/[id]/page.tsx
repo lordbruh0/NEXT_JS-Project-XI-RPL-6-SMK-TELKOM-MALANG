@@ -8,13 +8,13 @@ type Params = {
 
 export default function projectDetail({ params }: { params: Params }) {
     const { id } = params;
-    const porto = arrayPorto.find(P => P.id === parseInt(id));
+    const porto = arrayPorto.find(p => p.id === parseInt(id));
 
-    if (!porto) {
+    if (!porto) return <div>Project not found</div>
         return (
             <div className='container mx-auto p-4'>
                 <div className='mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8'>
-                    <Link href="/portofolio" className='inline-block mb-6 text-soft-brown hover:underline'></Link>
+                    <Link href="/portofolio" className='inline-block mb-6 text-soft-brown hover:underline'>back to portofolio</Link>
                     <p className='font-semibold text-sm text-soft-brown'>{porto.category}</p>
                     <h1 className='text-2xl font-bold text-white'>{porto.name}</h1>
                     <p className='mb-4'>{porto.description}</p>
@@ -29,5 +29,5 @@ export default function projectDetail({ params }: { params: Params }) {
                 </div>
             </div>
         )
-    }
+    
 }

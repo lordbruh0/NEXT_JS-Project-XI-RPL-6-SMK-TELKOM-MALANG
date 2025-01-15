@@ -19,8 +19,8 @@ const Hero = () => {
                     {/* Keterangan data diri */}
                     <div>
                       <h1 className="text-4xl font-bold text-white mb-2">Hai, I'am Ryo</h1>
-                      <h1 className="text-4xl mb-4">UI / UX DESIGNER</h1>
-                      <p className="mb-5">Aku adalah seorang designer di sekolah SMK Telkom Malang. Aku telah mengikuti banyak project dari sekolah ataupun project dari luar sekolah. Saya juga sering mengikuti lomba - lomba software dev</p>
+                      <h1 className="text-4xl mb-4  text-white">UI / UX DESIGNER</h1>
+                      <p className="mb-5  text-white">Aku adalah seorang designer di sekolah SMK Telkom Malang. Aku telah mengikuti banyak project dari sekolah ataupun project dari luar sekolah. Saya juga sering mengikuti lomba - lomba software dev</p>
                     </div>
     
                     {/* Email dan Github */}
@@ -31,8 +31,8 @@ const Hero = () => {
                         {/* <p>GitHub</p> */}
                       </div>
                       <div className="flex">
-                        <p className="text-white-50 font-normal text-lg mr-auto">ryohariyono17@gmail.com</p>
-                        <p className="text-white-50 font-normal text-lg mr-2">lordbruh0</p>
+                        <p className="text-white-50 font-normal text-lg mr-auto text-white">ryohariyono17@gmail.com</p>
+                        <p className="text-white-50 font-normal text-lg mr-2  text-white">lordbruh0</p>
                         {/* <p>GitHub</p> */}
                       </div>
                     </div>
