@@ -5,6 +5,7 @@ export interface blogPost {
     date: string;
     exceprt: string;
     content: string;
+    category: string;
 }
 
 export const blogPosts: blogPost[] = [
@@ -14,7 +15,8 @@ export const blogPosts: blogPost[] = [
         slug: "blog-post-1",
         date: "2022-01-01",
         exceprt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae nunc.",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae nunc. Mauris feugiat, libero in ultr"
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae nunc. Mauris feugiat, libero in ultr",
+        category: "error"
     },
     {
         id: 2,
@@ -22,6 +24,7 @@ export const blogPosts: blogPost[] = [
         slug: "blog-post-1",
         date: "2022-01-01",
         exceprt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae nunc.",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae nunc. Mauris feugiat, libero in ultr"
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae nunc. Mauris feugiat, libero in ultr",
+        category: "fixed"
     }
 ];

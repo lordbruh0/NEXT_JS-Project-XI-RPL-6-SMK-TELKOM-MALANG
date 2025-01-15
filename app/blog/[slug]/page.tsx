@@ -14,15 +14,15 @@ export default function BlogPostPage ({ params }: { params: Params }) {
    }
 
    return (
-    <div className='container mx-auto'>
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 h-screen">
-            <Link href="/blog" className="inline-block mb-6 text-soft-brown hover:underline">Back to Blog</Link>
+    <div className='bg-black container mx-auto'>
+        <div className="'mx-auto max-w-2xl px-4 py-16 sm:px-10 sm:py-5 lg:max-w-7xl lg:px-8 min-h-screen h-auto">
+            <Link href="/blog" className="text-lg font-bold tracking-tight text-left text-white pr-10">Back to Blog</Link>
 
-            <h1 className="text-3xl font-bold mb-4 text-soft-brown">{post.title}</h1>
+            <h1 className="text-3xl font-bold mb-4 text-white">{post.title}</h1>
 
             <p className="text-white text-sm font-bold mb-4">{post.date}</p>
 
-            <ReactMarkdown>{post.content}</ReactMarkdown>
+            <ReactMarkdown className="text-white">{post.content}</ReactMarkdown>
         </div>
     </div>
    )
