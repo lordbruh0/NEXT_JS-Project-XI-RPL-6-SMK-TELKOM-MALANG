@@ -23,7 +23,7 @@ export default function RootLayout({
         <Header />
         {/* Tambahkan Bagian berikut pada Layout */}
         <div className="bg-home bg-no-repeat bg-cover">
-          <div className="bg-brown w-screen">{children}</div>
+          <div className="bg-red w-auto">{children}</div>
         </div>
       </body>
     </html>

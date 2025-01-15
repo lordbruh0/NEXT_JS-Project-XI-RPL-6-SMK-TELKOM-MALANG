@@ -3,7 +3,7 @@ import profilePic from "../../public/image/profile.jpg";
 
 const Hero = () => {
   return (
-    <section className="items-center p-10 ">
+    <section className="items-center px-10">
     <div className="flex justify-between items-center">
                   {/* Profile picture */}
                   <div className="w-2/5 ">

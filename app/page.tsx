@@ -10,12 +10,12 @@ import Policy from "./Components/policy";
 
 export default function Home() {
   return (
-    <div className="bg-home bg-no-repeat bg-cover">
-      <div className="bg-black w-screen">
+    <div className="bg-home bg-no-repeat bg-cover s">
+      <div className="bg-black w-auto">
         <main className="container mx-auto">
 
           {/* <Header /> */}
-          <section className="pt-">  
+          <section className="sm:py-5">  
           <Hero />
             </section>
           <Skill />

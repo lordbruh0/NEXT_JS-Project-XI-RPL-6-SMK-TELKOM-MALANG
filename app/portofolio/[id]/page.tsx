@@ -12,12 +12,14 @@ export default function projectDetail({ params }: { params: Params }) {
 
     if (!porto) return <div>Project not found</div>
         return (
-            <div className='container mx-auto p-4'>
-                <div className='mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8'>
-                    <Link href="/portofolio" className='inline-block mb-6 text-soft-brown hover:underline'>back to portofolio</Link>
-                    <p className='font-semibold text-sm text-soft-brown'>{porto.category}</p>
-                    <h1 className='text-2xl font-bold text-white'>{porto.name}</h1>
-                    <p className='mb-4'>{porto.description}</p>
+            <div className='container mx-auto'>
+                <div className='bg-black mx-auto max-w-2xl px-4 py-16 sm:px-10 sm:py-5 lg:max-w-7xl lg:px-8 h-auto'>
+                    <Link href="/portofolio" className='text-lg font-bold tracking-tight text-left text-white pr-10'>back to art gallery</Link>
+                    <div className='flex items-center justify-center pb-10'>
+                    <h1 className='text-2xl font-bold text-white pr-10'>{porto.name}</h1>
+                    <p className='font-semibold text-2xl text-white'>({porto.category})</p>
+                    </div>
+                    <p className='mb-4 text-white'>{porto.description}</p>
                     <Image
                         alt={porto.name}
                         src={porto.image}
