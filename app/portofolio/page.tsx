@@ -12,7 +12,7 @@ export default async function Portofolio({ searchParams }: { searchParams: { cat
 
     return (
         <main className="container mx-auto">
-            <div className="bg-black mx-auto max-w-2xl px-4 py-16 sm:px-10 sm:py-5 lg:max-w-7xl lg:px-8 h-auto">
+            <div className="bg-black mx-auto  px-4 py-16 sm:py-5  h-screen">
                 <h2 className="text-4xl font-bold tracking-tight text-left text-white">See My Art</h2>
                 {/* Category Filter */}
                 <div className="mt-4 mb-6 flex justify-start space-x-4">
